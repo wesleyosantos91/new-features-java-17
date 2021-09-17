@@ -20,4 +20,11 @@ class ExempleTest {
         Integer result = exemple.getNumberMonth(Month.JUNE);
         assertEquals(result, expected);
     }
+
+    @Test
+    void getType() {
+        Integer expected = "int 1";
+        Integer result = exemple.getType(1);
+        assertEquals(result, expected);
+    }
 }
