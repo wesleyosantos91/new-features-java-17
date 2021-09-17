@@ -23,8 +23,8 @@ class ExempleTest {
 
     @Test
     void getType() {
-        Integer expected = "int 1";
-        Integer result = exemple.getType(1);
+        String expected = "int 1";
+        String result = exemple.getType(1);
         assertEquals(result, expected);
     }
 }

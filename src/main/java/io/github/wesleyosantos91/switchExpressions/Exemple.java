@@ -30,7 +30,7 @@ public class Exemple {
      * @param obj
      * @return
      */
-    public Integer getType(Object obj) {
+    public String getType(Object obj) {
         return switch (obj) {
             case Integer i -> String.format("int %d", i);
             case Long l    -> String.format("long %d", l);
